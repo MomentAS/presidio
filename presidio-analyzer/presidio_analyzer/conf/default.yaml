@@ -3,6 +3,9 @@ models:
   -
     lang_code: en
     model_name: en_core_web_lg
+  -
+    lang_code: da
+    model_name: da_core_news_lg
 
 ner_model_configuration:
   model_to_presidio_entity_mapping:
