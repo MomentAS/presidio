@@ -30,6 +30,18 @@ recognizers:
       context: [cpr, cpr-nummer, personnummer, fødselsdato, fødselsnummer, cpr nummer, cprnr, cpr nr]
     type: predefined
 
+  - name: DaAddressRecognizer
+    supported_languages:
+    - language: da
+      context: [adresse, gade, vej, alle, plads, torv, bynavn, postnummer, postnr, by, adresse, gadenavn, vejnavn, adressen, gaden, vejen, alleen, pladsen, torvet, bynavnet, postnummeret, postnret, byen]
+    type: predefined
+
+  - name: DaPhoneRecognizer
+    supported_languages:
+    - language: da
+      context: [telefon, mobil, nummer, telefonnummer, mobilnummer, tlf, tlf., mob, mob., ring, ringer, opkald, telefonopkald, telefonnummeret, mobilnummeret, tlfnr, mobnr]
+    type: predefined
+
   - name: UsBankRecognizer
     supported_languages: 
     - en

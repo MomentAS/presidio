@@ -12,8 +12,10 @@ from .au_tfn_recognizer import AuTfnRecognizer
 from .azure_ai_language import AzureAILanguageRecognizer
 from .credit_card_recognizer import CreditCardRecognizer
 from .crypto_recognizer import CryptoRecognizer
-from .date_recognizer import DateRecognizer
+from .da_address_recognizer import DaAddressRecognizer
 from .da_cpr_recognizer import DaCprRecognizer
+from .da_phone_recognizer import DaPhoneRecognizer
+from .date_recognizer import DateRecognizer
 from .email_recognizer import EmailRecognizer
 from .es_nie_recognizer import EsNieRecognizer
 from .es_nif_recognizer import EsNifRecognizer
@@ -110,4 +112,6 @@ __all__ = [
     "EsNieRecognizer",
     "UkNinoRecognizer",
     "DaCprRecognizer",
+    "DaAddressRecognizer",
+    "DaPhoneRecognizer",
 ]
