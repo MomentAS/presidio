@@ -56,7 +56,7 @@ class AnalyzerEngine:
         context_aware_enhancer: Optional[ContextAwareEnhancer] = None,
     ):
         if not supported_languages:
-            supported_languages = ["en"]
+            supported_languages = ["en", "da"]
 
         if not nlp_engine:
             logger.info("nlp_engine not provided, creating default.")
