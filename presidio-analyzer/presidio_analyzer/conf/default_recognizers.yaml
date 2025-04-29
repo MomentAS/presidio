@@ -24,6 +24,12 @@ recognizers:
     - language: pl
     type: predefined
 
+  - name: DaCprRecognizer
+    supported_languages:
+    - language: da
+      context: [cpr, cpr-nummer, personnummer, fødselsdato, fødselsnummer, cpr nummer, cprnr, cpr nr]
+    type: predefined
+
   - name: UsBankRecognizer
     supported_languages: 
     - en

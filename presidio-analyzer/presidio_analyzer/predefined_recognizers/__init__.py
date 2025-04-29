@@ -13,6 +13,7 @@ from .azure_ai_language import AzureAILanguageRecognizer
 from .credit_card_recognizer import CreditCardRecognizer
 from .crypto_recognizer import CryptoRecognizer
 from .date_recognizer import DateRecognizer
+from .da_cpr_recognizer import DaCprRecognizer
 from .email_recognizer import EmailRecognizer
 from .es_nie_recognizer import EsNieRecognizer
 from .es_nif_recognizer import EsNifRecognizer
@@ -108,4 +109,5 @@ __all__ = [
     "FiPersonalIdentityCodeRecognizer",
     "EsNieRecognizer",
     "UkNinoRecognizer",
+    "DaCprRecognizer",
 ]
