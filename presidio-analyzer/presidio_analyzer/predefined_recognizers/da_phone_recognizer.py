@@ -20,18 +20,12 @@ class DaPhoneRecognizer(PatternRecognizer):
     """
 
     PATTERNS = [
-        # Pattern for international format with country code (with or without spaces)
+
         Pattern(
-            "Danish Phone (International)",
-            r"\b(?:\+45\s?)?(?:2\d{7}|[3-9]\d{7})\b",
-            0.7,
-        ),
-        # Pattern for local format (with or without spaces)
-        Pattern(
-            "Danish Phone (Local)",
-            r"\b(?:2\d{7}|[3-9]\d{7})\b",
-            0.5,
-        ),
+            "Danish Phone",
+            r"(?:(?:\+|00)45\s?(?:\(0\)\s?)?)?(?:[2-9]\d{1}\s?\d{2}\s?\d{2}\s?\d{2}|[2-9]\d{3}\s?\d{4}|[2-9]\d{7})",
+            0.6,
+        )
     ]
 
     CONTEXT = [
